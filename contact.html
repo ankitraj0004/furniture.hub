@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background-image: url("tab1.png");
+     
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      padding: 20px;
+    }
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0px;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 12px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #fff;
+      z-index: 999;
+      margin-left: 0px;
+    }
+
+    .navbar .logo {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    
+
+    .navbar a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 10px;
+      font-weight: bold;
+      margin-right: 10px;
+    }
+    /* .contact-container {
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      max-width: 500px;
+      width: 100%;
+    }
+    .contact-container {
+  background-color: skyblue;
+  opacity: 0.8;  /* Makes entire container and its content transparent 
+} */
+    .contact-container {
+  background: blue(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 12px;
+  color:black;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #0d6efd;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      color: #333;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    textarea {
+      resize: vertical;
+      height: 100px;
+    }
+    button {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      background-color: #0d6efd;
+      color: #fff;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #04bb3e;
+    }
+   
+  </style>
+</head>
+<body>
+    <div class="navbar">
+    <div class="logo">Furniture Portfolio</div>
+    <div class="hm">
+      <a href="nav.html">Home</a>
+      <a href="about.html">About</a>
+      
+      
+    </div>
+  </div>
+
+  <div class="contact-container">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required placeholder="Enter your name">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email">
+      </div>
+
+      <div class="phone-no">
+        <label for="email">Phone No.</label>
+        <input type="email" id="email" name="email" required placeholder="Enter Phone">
+      </div><br>
+
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required placeholder="Write your message..."></textarea>
+      </div>
+
+      <button type="submit">Send Message</button>
+
+      <div class="success-message" id="successMessage">Your message has been sent successfully!</div>
+    </form>
+  </div>
+
+  
+</body>
+</html>

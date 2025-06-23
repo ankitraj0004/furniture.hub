@@ -1,0 +1,2185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background-image: url("tab1.png");
+     
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      padding: 20px;
+    }
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0px;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 12px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #fff;
+      z-index: 999;
+      margin-left: 0px;
+    }
+
+    .navbar .logo {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    
+
+    .navbar a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 10px;
+      font-weight: bold;
+      margin-right: 10px;
+    }
+    /* .contact-container {
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      max-width: 500px;
+      width: 100%;
+    }
+    .contact-container {
+  background-color: skyblue;
+  opacity: 0.8;  /* Makes entire container and its content transparent 
+} */
+    .contact-container {
+  background: blue(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 12px;
+  color:black;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #0d6efd;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      color: #333;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    textarea {
+      resize: vertical;
+      height: 100px;
+    }
+    button {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      background-color: #0d6efd;
+      color: #fff;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #04bb3e;
+    }
+   
+  </style>
+</head>
+<body>
+    <div class="navbar">
+    <div class="logo">Furniture Portfolio</div>
+    <div class="hm">
+      <a href="nav.html">Home</a>
+      <a href="about.html">About</a>
+      
+      
+    </div>
+  </div>
+
+  <body class='one-col ul_desktop body_static_content' data-hook='body' id='default'>
+
+    <div class='container'>
+      <script>var doc = $(document);
+        doc.ready(function () {
+          doc.on('click', '#head-alert .close-head-alert', function () {
+            if (typeof navbarHeight != 'undefined' && navbarHeight) {
+              navbarHeight = navbarHeight - $('#head-alert').outerHeight();
+              $("#wrapper").removeAttr("style");
+            }
+            $(this).parents('#head-alert').remove();
+            ulHelper.trackEvent({ gaaction: 'Head.Banner.Close' });
+            UI.setPCookie({ name: UL.HEAD_BANNER_COOKIE, value: UL.HEAD_BANNER_COOKIE_VALUE, expires: UL.HEAD_BANNER_COOKIE_EXPIRES });
+          });
+        });</script>
+      <header data-hook data-topbar id='header'>
+        <section class='featuredLinksBar'>
+          <div class='featuredLinksBar__content no-styleguide'>
+            <ul class='featuredLinksBar__contact-links'>
+              <li class='featuredLinksBar__contact-link'>
+
+                <div class='header__topBar'>
+                  <div class='header__topBar-content no-styleguide'>
+                    <section class='header__topBar_sectionLeft'>
+                      <a href="#">
+                        <figure class='fur.png'>
+                          <svg xmlns="fur.png" width="50" height="37" viewBox="0 0 50 37" class="fur.png">
+                            <defs>
+                              <linearGradient id="a" x1="0%" y1="50%" y2="50%">
+                                <stop offset="0%" stop-color="#EC8523"></stop>
+                                <stop offset="35%" stop-color="#ED7745"></stop>
+                                <stop offset="37%" stop-color="#ED7545"></stop>
+                                <stop offset="76%" stop-color="#E95D47"></stop>
+                                <stop offset="100%" stop-color="#E85448"></stop>
+                              </linearGradient>
+                            </defs>
+
+                            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                              <div class="container-fluid">
+                                <a class="navbar-brand" href="#">Navbar</a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                  aria-expanded="false" aria-label="Toggle navigation">
+                                  <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="#">Link</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                      <a class="nav-link dropdown-toggle" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Dropdown
+                                      </a>
+                                      <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                          <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                      </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                                    </li>
+                                  </ul>
+                                  <form class="d-flex" role="search">
+                                    <input class="form-control me-2" type="search" placeholder="Search"
+                                      aria-label="Search" />
+                                    <button class="btn btn-outline-success" type="submit">Search</button>
+                                  </form>
+                                </div>
+                              </div>
+                            </nav>
+
+
+
+
+
+
+
+
+
+                            <ul class='dropdown'>
+                              <li>
+                                <a class="login-link authentication_popup" id="header-icon-login"
+                                  href="javascript:void(0);">Log In</a>
+                              </li>
+                              <li>
+                                <a class="signup-link authentication_popup" id="header-icon-signup"
+                                  href="javascript:void(0);">Sign Up</a>
+                              </li>
+                            </ul>
+                            </span>
+              </li>
+              <li>
+                <a title="Wishlist" class="header-icon-link" id="header-icon-wishlist" href="/wishlist?src=header">
+                  <div id='shortlist-badge'>
+                    <span class='header-icon'><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24">
+                        <path fill-rule="evenodd"
+                          d="M4.93 8.55c0-1.4 1.1-2.53 2.44-2.53.27 0 .5-.22.5-.5 0-.27-.23-.5-.5-.5-1.9 0-3.42 1.6-3.42 3.53 0 .28.22.5.5.5.26 0 .48-.22.48-.5zm8.25-3.57zM7.38 4c-1.18 0-2.28.47-3.1 1.33-1.72 1.78-1.72 4.67 0 6.45l7.72 8 7.73-8c1.7-1.78 1.7-4.67 0-6.45C18.9 4.47 17.8 4 16.63 4c-1.17 0-2.26.47-3.1 1.33-.5.5-.84 1.1-1.06 1.8-.07.2-.25.34-.47.34-.2 0-.4-.14-.47-.34-.22-.7-.58-1.3-1.07-1.8C9.64 4.47 8.54 4 7.36 4zM12 21c-.13 0-.26-.05-.35-.15l-8.08-8.37c-2.1-2.17-2.1-5.7 0-7.85C4.57 3.58 5.93 3 7.37 3c1.43 0 2.78.58 3.8 1.63.32.34.6.7.83 1.1.23-.4.5-.76.83-1.1C13.85 3.58 15.2 3 16.63 3c1.44 0 2.8.58 3.8 1.63 2.1 2.16 2.1 5.68 0 7.85l-8.08 8.37c-.1.1-.22.15-.35.15z">
+                        </path>
+                      </svg>
+                    </span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a title="Cart" class="header-icon-link" id="header-icon-cart" href="/cart?src=header">
+                  <div id='cart-badge'>
+                    <span class='header-icon'><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24">
+
+                      </svg>
+                    </span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+        </section>
+    </div>
+    </div>
+    
+
+    </div>
+    <script>
+      $(document).ready(function () {
+        $('body').on('click', '#logout', function (ev) {
+          var date = new Date();
+          var expiryDays = parseInt(UL.COOKIE_EXIPIRY_IN_DAYS);
+          date.setTime(date.getTime() + (expiryDays * 24 * 60 * 60 * 1000));
+
+          ulHelper.eraseCookie("ul_user_traits");
+          ulHelper.createCookie("ul_auth_status", '0', date);
+          window.location.href = "/logout";
+        });
+        $('.header__topBarIconList').on('click', 'a', function (event) {
+          try {
+            var ele = event.currentTarget
+            var iconName = ele.id.replace(/^header-icon-/, '')
+            var badgeNumber = 0
+            if (iconName == "wishlist") {
+              badgeNumber = parseInt($(ele).find('#shortlist-badge')['0'].innerText)
+            } else if (iconName == "cart") {
+              badgeNumber = parseInt($(ele).find('#cart-badge')['0'].innerText)
+            }
+            UL.Ecommerce.headerIconClicked({ iconName, badgeNumber });
+          } catch (err) {
+            console.log("Error in adding headerIconClicked event ", err.message)
+          }
+        });
+      });
+    </script>
+
+    </header>
+    <script>
+      var UL = UL || {};
+      UL.ANIMATING_LOGO_URL = "https://www.ulcdn.net/media/ul/logo/new-logo.gif"
+    </script>
+
+    <div class='row' data-hook='' id='wrapper'>
+
+      <div class='row' id='breadcrumbs-container'>
+
+      </div>
+
+
+      <div class='columns sixteen' data-hook='' id='content'>
+
+        <div id='page_content'>
+          <p style="margin-bottom: -5px; text-align: center;"><img
+              src="https://www.ulcdn.net/media/Collection/listings/FHF_U_LP_Top_banner_1.png?1749191347"
+              alt="Full House Fiesta" width="1000" height="600" /></p>
+          <p style="margin-bottom: -25px; text-align: center;"><img
+              src="https://www.ulcdn.net/media/Collection/listings/Terra_LP_Top_main_header.png?1747142263"
+              alt="Full House Fiesta " width="1440" height="600" /></p>
+          <div class="hp-module row text-center" style="padding-bottom: 0px;">
+            <center class="slick-slider shop-by-module" data-options="animation:slide;pause_on_hover:false;animation_speed:500;
+    navigation_arrows:false;next_on_click:false;slide_number:false;bullets:false;timer:false;
+    autoplay:false;dots:false;autoplaySpeed:5000;pauseOnHover:false;infinite:false;"
+              data-prevarrowclass="icofont-left_arrow_rounded" data-nextarrowclass="icofont-right_arrow_rounded"
+              data-dots="false" data-gaprevaction="home.carousel.limtedtimedeals.previous"
+              data-ganextaction="home.carousel.limtedtimedeals.next">
+              <ul class="product-list">
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/terra-bedroom-collection?src=fhf_npd_terra_1_furniture-decor"
+                    target="_blank" rel="noopener"> <img
+                      src="https://www.ulcdn.net/media/Collection/listings/Terra_bedroom_LP.png?1747139284"
+                      alt="https://www.ulcdn.net/media/Collection/listings/Terra_bedroom_LP.png?1747139284" /></a></li>
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/terra-dining-room-collection?src=fhf_npd_terra_2_furniture-decor"
+                    target="_blank" rel="noopener"> <img
+                      src="https://www.ulcdn.net/media/Collection/listings/Terra_Dining_room_LP.png?1747139279"
+                      alt="https://www.ulcdn.net/media/Collection/listings/Terra_Dining_room_LP.png?1747139279" /></a>
+                </li>
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/terra-living-room-collection?src=fhf_npd_terra_3_furniture-decor"
+                    target="_blank" rel="noopener"> <img
+                      src="https://www.ulcdn.net/media/Collection/listings/Terra_living_room_LP.png?1747139275"
+                      alt="https://www.ulcdn.net/media/Collection/listings/Terra_living_room_LP.png?1747139275" /></a>
+                </li>
+              </ul>
+            </center>
+          </div>
+          <p style="margin-bottom: -25px; text-align: center;"><img
+              src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_S_Header.png?1749103178"
+              alt="Full House Fiesta" width="1440" height="642" /></p>
+          <div class="hp-module row text-center" style="padding-bottom: 0px;">
+            <center class="slick-slider shop-by-module" data-options="animation:slide;pause_on_hover:false;animation_speed:500;
+    navigation_arrows:false;next_on_click:false;slide_number:false;bullets:false;timer:false;
+    autoplay:false;dots:false;autoplaySpeed:5000;pauseOnHover:false;infinite:false;"
+              data-prevarrowclass="icofont-left_arrow_rounded" data-nextarrowclass="icofont-right_arrow_rounded"
+              data-dots="false" data-gaprevaction="home.carousel.limtedtimedeals.previous"
+              data-ganextaction="home.carousel.limtedtimedeals.next">
+              <ul class="product-list">
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/dining-sets-under-35000?src=fhf_great_price_deal_1_furniture-decor"
+                    target="_blank" rel="noopener"> <img
+                      src="https://www.ulcdn.net/media/Collection/listings/Dining_under_35K.png?1750146128"
+                      alt="https://www.ulcdn.net/media/Collection/listings/Dining_under_35K.png?1750146128" /></a></li>
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/storage-beds-under-30000?src=fhf_great_price_deal_2_furniture-decor"
+                    target="_blank" rel="noopener"> <img
+                      src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_S_1.png?1750153573"
+                      alt="https://www.ulcdn.net/media/Collection/listings/FHF_UP_S_1.png?1750153573" /></a></li>
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/living-room-must-haves?src=fhf_great_price_deal_3_furniture-decor"
+                    target="_blank" rel="noopener"> <img
+                      src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_S_3.png?1749103192"
+                      alt="https://www.ulcdn.net/media/Collection/listings/FHF_UP_S_3.png?1749103192" /></a></li>
+              </ul>
+            </center>
+          </div>
+          <p style="margin-bottom: -25px; text-align: center;"><img
+              src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_DC_Header.png?1749103201"
+              alt="Full House Fiesta " width="1440" height="642" /></p>
+          <div class="hp-module row text-center" style="padding-bottom: 0px;">
+            <center class="slick-slider shop-by-module" data-options="animation:slide;pause_on_hover:false;animation_speed:500;
+    navigation_arrows:false;next_on_click:false;slide_number:false;bullets:false;timer:false;
+    autoplay:false;dots:false;autoplaySpeed:5000;pauseOnHover:false;infinite:false;"
+              data-prevarrowclass="icofont-left_arrow_rounded" data-nextarrowclass="icofont-right_arrow_rounded"
+              data-dots="false" data-gaprevaction="home.carousel.limtedtimedeals.previous"
+              data-ganextaction="home.carousel.limtedtimedeals.next">
+              <ul class="product-list">
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/recliners?src=fhf_offer-zone_1_furniture-decor" target="_blank"
+                    rel="noopener"> <img
+                      src="https://www.ulcdn.net/media/Collection/listings/lp_lounge15_voucher.png?1750080470"
+                      alt="https://www.ulcdn.net/media/Collection/listings/lp_lounge15_voucher.png?1750080470" /></a>
+                </li>
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/mattresses?src=fhf_offer-zone_2_furniture-decor" target="_blank"
+                    rel="noopener"> <img
+                      src="https://www.ulcdn.net/media/Collection/listings/Lp_mattress10.png?1750080468"
+                      alt="https://www.ulcdn.net/media/Collection/listings/Lp_mattress10.png?1750080468" /></a></li>
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/sofa-cum-bed?src=fhf_offer-zone_3_furniture-decor" target="_blank"
+                    rel="noopener"> <img
+                      src="https://www.ulcdn.net/media/Collection/listings/Ulsofa15_voucher.png?1750080473"
+                      alt="https://www.ulcdn.net/media/Collection/listings/Ulsofa15_voucher.png?1750080473" /></a></li>
+              </ul>
+            </center>
+          </div>
+          <p style="margin-bottom: -25px; text-align: center;"><img
+              src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_TC_Header.png?1749103482"
+              alt="Full House Fiesta " width="1440" height="642" /></p>
+          <div class="hp-module row text-center" style="padding-bottom: 0px;">
+            <center class="slick-slider shop-by-module" data-options="animation:slide;pause_on_hover:false;animation_speed:500;
+    navigation_arrows:false;next_on_click:false;slide_number:false;bullets:false;timer:false;
+    autoplay:false;dots:false;autoplaySpeed:5000;pauseOnHover:false;infinite:false;"
+              data-prevarrowclass="icofont-left_arrow_rounded" data-nextarrowclass="icofont-right_arrow_rounded"
+              data-dots="false" data-gaprevaction="home.carousel.limtedtimedeals.previous"
+              data-ganextaction="home.carousel.limtedtimedeals.next">
+              <ul class="product-list">
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/bed?src=fhf_top_category_1_furniture-decor" target="_blank"
+                    rel="noopener"> <img class="Full House Fiesta "
+                      src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_TC_1.png?1749103485" alt="Beds"
+                      data-src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_TC_1.png?1749103485" /></a></li>
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/cupboards?src=fhf_top_category_2_furniture-decor" target="_blank"
+                    rel="noopener"> <img class="lazy"
+                      src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_TC_2.png?1749103487" alt="cupboard"
+                      data-src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_TC_2.png?1749103487" /></a></li>
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/study-table?src=fhf_top_category_3_furniture-decor"
+                    target="_blank" rel="noopener"> <img
+                      src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_TC_3.png?1749103490"
+                      alt="https://www.ulcdn.net/media/Collection/listings/FHF_UP_TC_3.png?1749103490" /></a></li>
+              </ul>
+            </center>
+            <center class="slick-slider shop-by-module" data-options="animation:slide;pause_on_hover:false;animation_speed:500;
+    navigation_arrows:false;next_on_click:false;slide_number:false;bullets:false;timer:false;
+    autoplay:false;dots:false;autoplaySpeed:5000;pauseOnHover:false;infinite:false;"
+              data-prevarrowclass="icofont-left_arrow_rounded" data-nextarrowclass="icofont-right_arrow_rounded"
+              data-dots="false" data-gaprevaction="home.carousel.limtedtimedeals.previous"
+              data-ganextaction="home.carousel.limtedtimedeals.next">
+              <ul class="product-list">
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/recliners?src=fhf_top_category_4_furniture-decor" target="_blank"
+                    rel="noopener"> <img
+                      src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_TC_4.png?1749103493"
+                      alt="https://www.ulcdn.net/media/Collection/listings/FHF_UP_TC_4.png?1749103493" /></a></li>
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/coffee-table?src=fhf_top_category_5_furniture-decor"
+                    target="_blank" rel="noopener"> <img class="Coffee Table"
+                      src="https://www.ulcdn.net/assets/spree/frontend/icons/loader.gif" alt="Full House Fiesta "
+                      data-src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_TC_5.png?1749103496" /></a></li>
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/shoe-rack?src=fhf_top_category_6_furniture-decor" target="_blank"
+                    rel="noopener"> <img
+                      src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_TC_6.png?1749103500"
+                      alt="https://www.ulcdn.net/media/Collection/listings/FHF_UP_TC_6.png?1749103500" /></a></li>
+              </ul>
+            </center>
+            <center class="slick-slider shop-by-module" data-options="animation:slide;pause_on_hover:false;animation_speed:500;
+    navigation_arrows:false;next_on_click:false;slide_number:false;bullets:false;timer:false;
+    autoplay:false;dots:false;autoplaySpeed:5000;pauseOnHover:false;infinite:false;"
+              data-prevarrowclass="icofont-left_arrow_rounded" data-nextarrowclass="icofont-right_arrow_rounded"
+              data-dots="false" data-gaprevaction="home.carousel.limtedtimedeals.previous"
+              data-ganextaction="home.carousel.limtedtimedeals.next">
+              <ul class="product-list">
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/tv-units?src=fhf_top_category_7_furniture-decor" target="_blank"
+                    rel="noopener"> <img
+                      src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_TC_7.png?1749103501"
+                      alt="https://www.ulcdn.net/media/Collection/listings/FHF_UP_TC_7.png?1749103501" /></a></li>
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/dining-table-set?src=fhf_top_category_8_furniture-decor"
+                    target="_blank" rel="noopener"> <img
+                      src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_TC_8.png?1749103506"
+                      alt="https://www.ulcdn.net/media/Collection/listings/FHF_UP_TC_8.png?1749103506" /></a></li>
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/wing-lounge-chairs?src=fhf_top_category_9_furniture-decor"
+                    target="_blank" rel="noopener"> <img
+                      src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_TC_9.png?1749103507"
+                      alt="https://www.ulcdn.net/media/Collection/listings/FHF_UP_TC_9.png?1749103507" /></a></li>
+              </ul>
+            </center>
+            <center class="slick-slider shop-by-module" data-options="animation:slide;pause_on_hover:false;animation_speed:500;
+    navigation_arrows:false;next_on_click:false;slide_number:false;bullets:false;timer:false;
+    autoplay:false;dots:false;autoplaySpeed:5000;pauseOnHover:false;infinite:false;"
+              data-prevarrowclass="icofont-left_arrow_rounded" data-nextarrowclass="icofont-right_arrow_rounded"
+              data-dots="false" data-gaprevaction="home.carousel.limtedtimedeals.previous"
+              data-ganextaction="home.carousel.limtedtimedeals.next">
+              <ul class="product-list">
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/chest-of-drawers?src=fhf_top_category_10_furniture-decor"
+                    target="_blank" rel="noopener"> <img
+                      src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_TC_10.png?1749103511"
+                      alt="https://www.ulcdn.net/media/Collection/listings/FHF_UP_TC_10.png?1749103511" /></a></li>
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/bookshelf?src=fhf_top_category_11_furniture-decor" target="_blank"
+                    rel="noopener"> <img
+                      src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_TC_11.png?1749103514"
+                      alt="https://www.ulcdn.net/media/Collection/listings/FHF_UP_TC_11.png?1749103514" /></a></li>
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/crockery-unit?src=fhf_top_category_12_furniture-decor"
+                    target="_blank" rel="noopener"> <img
+                      src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_TC_12.png?1749103516"
+                      alt="https://www.ulcdn.net/media/Collection/listings/FHF_UP_TC_12.png?1749103516" /></a></li>
+              </ul>
+            </center>
+          </div>
+          <p style="margin-bottom: -25px; text-align: center;"><img
+              src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS_0_Header.png?1749123036"
+              alt="Full House Fiesta " width="1440" height="642" /></p>
+          <div class="hp-module row text-center" style="padding-bottom: 0px;">
+            <center class="slick-slider shop-by-module" data-options="animation:slide;pause_on_hover:false;animation_speed:500;
+    navigation_arrows:false;next_on_click:false;slide_number:false;bullets:false;timer:false;
+    autoplay:false;dots:false;autoplaySpeed:5000;pauseOnHover:false;infinite:false;"
+              data-prevarrowclass="icofont-left_arrow_rounded" data-nextarrowclass="icofont-right_arrow_rounded"
+              data-dots="false" data-gaprevaction="home.carousel.limtedtimedeals.previous"
+              data-ganextaction="home.carousel.limtedtimedeals.next">
+              <ul class="product-list">
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/products/amy-storage-bed-with-headboard-storage-queen-classic-walnut-fnxxst33kw35805?sku=FNBDST33CW35588&amp;src=room?src=fhf_bestsellers__1_furniture-decor"
+                    target="_blank" rel="noopener"> <img class="Full House Fiesta "
+                      src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS_01.png?1749123038" alt="Beds"
+                      data-src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS_01.png?1749123038" /></a></li>
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/products/zoey-three-door-wardrobe?sku=FNSGCB43CW35099&amp;src=room?src=fhf_bestsellers__2_furniture-decor"
+                    target="_blank" rel="noopener"> <img class="lazy"
+                      src="https://www.ulcdn.net/media/Collection/listings/Zoey_wardrobe_Lp.png?1750080466"
+                      alt="cupboard"
+                      data-src="https://www.ulcdn.net/media/Collection/listings/Zoey_wardrobe_Lp.png?1750080466" /></a>
+                </li>
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/products/ben-4-chest-of-drawers-dark-wenge-fnxxdr33cw35799?sku=FNSGDR33CW35799&amp;src=room?src=fhf_bestsellers__10_furniture-decor"
+                    target="_blank" rel="noopener"> <img
+                      src="https://www.ulcdn.net/media/Collection/listings/ben_Chest_of_drawers.png?1750080463"
+                      alt="https://www.ulcdn.net/media/Collection/listings/ben_Chest_of_drawers.png?1750080463" /></a>
+                </li>
+              </ul>
+            </center>
+            <center class="slick-slider shop-by-module" data-options="animation:slide;pause_on_hover:false;animation_speed:500;
+    navigation_arrows:false;next_on_click:false;slide_number:false;bullets:false;timer:false;
+    autoplay:false;dots:false;autoplaySpeed:5000;pauseOnHover:false;infinite:false;"
+              data-prevarrowclass="icofont-left_arrow_rounded" data-nextarrowclass="icofont-right_arrow_rounded"
+              data-dots="false" data-gaprevaction="home.carousel.limtedtimedeals.previous"
+              data-ganextaction="home.carousel.limtedtimedeals.next">
+              <ul class="product-list">
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/products/lebowski-recliner?sku=FNSFRS51CO10111&amp;src=subcat?src=fhf_bestsellers__4_furniture-decor"
+                    target="_blank" rel="noopener"> <img
+                      src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS_04.png?1749123045"
+                      alt="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS_04.png?1749123045" /></a></li>
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/products/florence-armchair?sku=FNSTCH11TK30006&amp;src=subcat?src=fhf_bestsellers__5_furniture-decor"
+                    target="_blank" rel="noopener"> <img class="Coffee Table"
+                      src="https://www.ulcdn.net/assets/spree/frontend/icons/loader.gif" alt="Full House Fiesta "
+                      data-src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS_05.png?1749123048" /></a></li>
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/products/alex-shoe-cabinet?sku=FNSGSR33CW16433&amp;src=subcat?src=fhf_bestsellers__6_furniture-decor"
+                    target="_blank" rel="noopener"> <img
+                      src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS_06.png?1749123050"
+                      alt="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS_06.png?1749123050" /></a></li>
+              </ul>
+            </center>
+            <center class="slick-slider shop-by-module" data-options="animation:slide;pause_on_hover:false;animation_speed:500;
+    navigation_arrows:false;next_on_click:false;slide_number:false;bullets:false;timer:false;
+    autoplay:false;dots:false;autoplaySpeed:5000;pauseOnHover:false;infinite:false;"
+              data-prevarrowclass="icofont-left_arrow_rounded" data-nextarrowclass="icofont-right_arrow_rounded"
+              data-dots="false" data-gaprevaction="home.carousel.limtedtimedeals.previous"
+              data-ganextaction="home.carousel.limtedtimedeals.next">
+              <ul class="product-list">
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/products/augusta-4-seater-dining-set?src=room?src=fhf_bestsellers__7_furniture-decor"
+                    target="_blank" rel="noopener"> <img
+                      src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS_07.png?1749123053"
+                      alt="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS_07.png?1749123053" /></a></li>
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/products/kaya-coffee-table-in-new-walnut-finish-fnxxcf62nw36291?sku=FNTBCF62NW36291&amp;src=room?src=fhf_bestsellers__8_furniture-decor"
+                    target="_blank" rel="noopener"> <img
+                      src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS_08.png?1749123056"
+                      alt="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS_08.png?1749123056" /></a></li>
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/products/graham-study-table?sku=FNTBST43CW30010&amp;src=subcat?src=fhf_bestsellers__9_furniture-decor"
+                    target="_blank" rel="noopener"> <img
+                      src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS_09.png?1749123059"
+                      alt="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS_09.png?1749123059" /></a></li>
+              </ul>
+            </center>
+            <center class="slick-slider shop-by-module" data-options="animation:slide;pause_on_hover:false;animation_speed:500;
+    navigation_arrows:false;next_on_click:false;slide_number:false;bullets:false;timer:false;
+    autoplay:false;dots:false;autoplaySpeed:5000;pauseOnHover:false;infinite:false;"
+              data-prevarrowclass="icofont-left_arrow_rounded" data-nextarrowclass="icofont-right_arrow_rounded"
+              data-dots="false" data-gaprevaction="home.carousel.limtedtimedeals.previous"
+              data-ganextaction="home.carousel.limtedtimedeals.next">
+              <ul class="product-list">
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/products/eve-dresser-dark-wenge-fnxxds33cw35797?sku=FNTBDS33CW35797&amp;src=room?src=fhf_bestsellers__3_furniture-decor"
+                    target="_blank" rel="noopener"> <img
+                      src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS_03.png?1749123043"
+                      alt="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS_03.png?1749123043" /></a></li>
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/products/miles-engineered-wood-bookshelf-fnxxbr33cw36043?sku=FNSGBR33CW36043&amp;src=subcat?src=fhf_bestsellers__11_furniture-decor"
+                    target="_blank" rel="noopener"> <img
+                      src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS_011.png?1749123066"
+                      alt="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS_011.png?1749123066" /></a></li>
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/products/hubert-6-door-display-cabinet?sku=FNSGBR33BR35937&amp;src=subcat?src=fhf_bestsellers__12_furniture-decor"
+                    target="_blank" rel="noopener"> <img
+                      src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS_012.png?1749123070"
+                      alt="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS_012.png?1749123070" /></a></li>
+              </ul>
+            </center>
+          </div>
+          <p style="margin-bottom: -5px; text-align: center;"><img
+              src="https://www.ulcdn.net/media/Collection/listings/Best_seller_LP_top_main.png?1749103721"
+              alt="Full House Fiesta " width="1000" height="600" /></p>
+          <p style="margin-bottom: -25px; text-align: center;"><img
+              src="https://www.ulcdn.net/media/Collection/listings/FHF_BS_Header_beds_1.png?1749114371"
+              alt="Stars-on-Sale" width="1000" height="400" /></p>
+          <div class="hp-module row text-center" style="padding-bottom: 0px;">
+            <center class="slick-slider shop-by-module" data-options="animation:slide;pause_on_hover:false;animation_speed:500;
+    navigation_arrows:false;next_on_click:false;slide_number:false;bullets:false;timer:false;
+    autoplay:false;dots:false;autoplaySpeed:5000;pauseOnHover:false;infinite:false;"
+              data-prevarrowclass="icofont-left_arrow_rounded" data-nextarrowclass="icofont-right_arrow_rounded"
+              data-dots="false" data-gaprevaction="home.carousel.limtedtimedeals.previous"
+              data-ganextaction="home.carousel.limtedtimedeals.next">
+              <ul class="product-list">
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/products/zoey-non-storage-bed?sku=FNBDNS43CW35089&amp;src=room?src=fhf_top_picks_beds_1_furniture-decor"
+                    target="blank" rel="noopener"> <img class="blockbuster deals-1"
+                      src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS1_1.png?1749103726"
+                      alt="blockbuster deals-1"
+                      data-src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS1_1.png?1749103726" /></a></li>
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/products/aruba-hydraulic-king-size-bed-classic-walnut-fnxxst43wa35175?sku=FNBDST43WA35176&amp;src=room?src=fhf_top_picks_beds_2_furniture-decor"
+                    target="_blank" rel="noopener"> <img class="blockbuster deals-2"
+                      src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS1_2.png?1749103729"
+                      alt="Blockbuster deal-2"
+                      data-src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS1_2.png?1749103729" /></a></li>
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/products/beirut-solid-wood-size-bed-in-finish-fnxxns11tk35069?sku=FNBDNS62TK36250&amp;src=room?src=fhf_top_picks_beds_3_furniture-decor"
+                    target="_blank" rel="noopener"> <img class="Stars on sale"
+                      src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS1_3.png?1749103732"
+                      alt="Stars on sale"
+                      data-src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS1_3.png?1749103732" /></a></li>
+              </ul>
+            </center>
+          </div>
+          <p style="margin-bottom: -25px; text-align: center;"><img
+              src="https://www.ulcdn.net/media/Collection/listings/FHF_BS_Header_dining_1.png?1749114374"
+              alt="Full House Fiesta " width="1440" height="642" /></p>
+          <div class="hp-module row text-center" style="padding-bottom: 0px;">
+            <center class="slick-slider shop-by-module" data-options="animation:slide;pause_on_hover:false;animation_speed:500;
+    navigation_arrows:false;next_on_click:false;slide_number:false;bullets:false;timer:false;
+    autoplay:false;dots:false;autoplaySpeed:5000;pauseOnHover:false;infinite:false;"
+              data-prevarrowclass="icofont-left_arrow_rounded" data-nextarrowclass="icofont-right_arrow_rounded"
+              data-dots="false" data-gaprevaction="home.carousel.limtedtimedeals.previous"
+              data-ganextaction="home.carousel.limtedtimedeals.next">
+              <ul class="product-list">
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/products/lawson-4-seater-dining-table-set?src=fhf_top_picks_dining_1_furniture-decor"
+                    target="_blank" rel="noopener"> <img
+                      src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS2_1.png?1749103822"
+                      alt="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS2_1.png?1749103822" /></a></li>
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/products/diner-4-seater-dining-table-set-with-upholstered-chairs?src=fhf_top_picks_dining_2_furniture-decor"
+                    target="_blank" rel="noopener"> <img
+                      src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS2_2.png?1749103824"
+                      alt="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS2_2.png?1749103824" /></a></li>
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/products/arabia-capra-6-seater-dining-table-set?src=fhf_top_picks_dining_3_furniture-decor"
+                    target="_blank" rel="noopener"> <img
+                      src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS2_3.png?1749103828"
+                      alt="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS2_3.png?1749103828" /></a></li>
+              </ul>
+            </center>
+          </div>
+          <p style="margin-bottom: -25px; text-align: center;"><img
+              src="https://www.ulcdn.net/media/Collection/listings/FHF_BS_Header_sofas_1.png?1749114377"
+              alt="Full House Fiesta " width="1440" height="642" /></p>
+          <div class="hp-module row text-center" style="padding-bottom: 0px;">
+            <center class="slick-slider shop-by-module" data-options="animation:slide;pause_on_hover:false;animation_speed:500;
+    navigation_arrows:false;next_on_click:false;slide_number:false;bullets:false;timer:false;
+    autoplay:false;dots:false;autoplaySpeed:5000;pauseOnHover:false;infinite:false;"
+              data-prevarrowclass="icofont-left_arrow_rounded" data-nextarrowclass="icofont-right_arrow_rounded"
+              data-dots="false" data-gaprevaction="home.carousel.limtedtimedeals.previous"
+              data-ganextaction="home.carousel.limtedtimedeals.next">
+              <ul class="product-list">
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/products/winston-fabric-sofa-slate-grey?src=fhf_top_picks_sofa_1_furniture-decor"
+                    target="_blank" rel="noopener"> <img
+                      src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS3_1.png?1749105571"
+                      alt="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS3_1.png?1749105571" /></a></li>
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/products/rubik-sofa-sandshell-beige?src=listing-fabric-sofas&amp;sku=FNSF51APPL30000SAAAA?src=fhf_top_picks_sofa_2_furniture-decor"
+                    target="_blank" rel="noopener"> <img
+                      src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS3_2.png?1749105573"
+                      alt="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS3_2.png?1749105573" /></a></li>
+                <li class="inline-list text-center"><a class="link-unit card-img-container"
+                    href="https://www.urbanladder.com/products/apollo-infinity-sofa?src=fhf_top_picks_sofa_3_furniture-decor"
+                    target="_blank" rel="noopener"> <img
+                      src="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS3_3.png?1749105575"
+                      alt="https://www.ulcdn.net/media/Collection/listings/FHF_UP_BS3_3.png?1749105575" /></a></li>
+              </ul>
+            </center>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <div attrs class='reveal-modal' data-reveal id='login_dialog'>
+      <div class='giveaway_section account login' id='authentication_popup'>
+        <div class='vert-wrapper'>
+          <div class='vert-container'>
+            <div class='large-6 banner-img vert text-center columns'>
+              <img class="prodimg" alt="Online Furniture"
+                src="https://www.ulcdn.net/media/subscription_popup/10_Off_Desk_popup.png?1745844105" />
+              <img class="wishpopupimg hide" alt="Wishlist Online Furniture"
+                data-src="https://www.ulcdn.net/media/wishlist_popup/signup-banner-01.jpg?1460638421"
+                src="https://www.ulcdn.net/assets/spree/frontend/icons/loader-f40db8b3a97fef2e139c0fa9b0de17fc.gif" />
+            </div>
+            <div class='popup-text text-center vert large-6 columns'>
+              <a class='close-reveal-modal hide-mobile' data-gaaction='popup.auth.close' data-gaclick='1'
+                href='javascript:void(0);'>
+                Close
+              </a>
+              <div class="login-message">SIGN UP FOR SALE UPDATES</div>
+              <a class="invisible close-reveal-modal" data-gaclick="1" data-gaaction="hidden-popup-close"
+                href="javascript:void(0);"></a>
+              <div class='auth-module hide' id='signup-module'>
+                <div class="signup-subheader-message">Get ideas, inspirations &amp; offers in your inbox</div>
+                <div class="form-heading">Be the first to know.</div>
+                <form name="signup_form" class="form-validate" id="signup_form" action="/signup" accept-charset="UTF-8"
+                  method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden"
+                    name="authenticity_token"
+                    value="k5OZb9NDoOq6tOc3fwhxBGm6prDJczbUNxbJKXuFZQBBIpEnJcGaru0yIYu3eWThRByNcfs7fLSwmXHS0h6S0g==" /><input
+                    class="textfield email required input_authentication email-suggest" tabindex="1"
+                    placeholder="Email Address*" type="email" name="spree_user[email]" id="spree_user_email" />
+                  <div class='password-wraps'>
+                    <div class='password'>
+                      <a tabindex="4" class="show-password link-color small" data-gaclick="1"
+                        data-gaaction="show_password" href="javascript:void(0);">Show Password</a>
+                      <a tabindex="5" class="hide-password link-color small hide" data-gaclick="1"
+                        data-gaaction="hide_password" href="javascript:void(0);">Hide Password</a>
+                      <input class="input_authentication hidden" placeholder="Password*" type="text"
+                        name="spree_user[password]" id="spree_user_password" />
+                      <input tabindex="2" class="textfield required input_authentication" placeholder="Password*"
+                        type="password" name="spree_user[password]" id="spree_user_password" />
+                    </div>
+                  </div>
+                  <input type="submit" name="commit" value="Sign Up" class="button primary signup" tabindex="3"
+                    data-gaclick="1" data-gaaction="signup_email_click" />
+                </form>
+                <div class='margin-5'>
+                  Have an account?
+                  <a class="login-link link-color" data-gaclick="1" data-gaaction="show_login"
+                    href="javascript:void(0);">Log-in</a>
+                </div>
+              </div>
+              <div class='auth-module' id='login-module'>
+                <div class="login-subheader-message">Login to explore great designs</div>
+                <div class="form-heading">Login with your email ID</div>
+                <form name="login_form" class="form-validate" id="login_form" action="/login" accept-charset="UTF-8"
+                  method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden"
+                    name="authenticity_token"
+                    value="FkGXtW+bPC15vfntsbnTZVO6qapnnwWiZ9PahuI1lwPE8J/9mRkGaS47P1F5yMaAfhyCa1XXT8LgXGJ9S65g0Q==" />
+                  <div id='password-credentials'>
+                    <input class="email required input_authentication" autofocus="autofocus" placeholder="Email Address"
+                      type="email" name="spree_user[email]" id="spree_user_email" />
+                    <div class='password-wrap'>
+                      <div class='password'>
+                        <input class="required input_authentication" placeholder="Password" type="password"
+                          name="spree_user[password]" id="spree_user_password" />
+                        <a class="forget-password link-color" data-gaclick="1" data-gaaction="forgot_password"
+                          href="/resetpassword">Forgot Password?</a>
+                      </div>
+                    </div>
+                  </div>
+                  <input type="submit" name="commit" value="Log In" id="ul_site_login" class="button primary"
+                    data-gaclick="1" data-gaaction="login_email_click" />
+                </form>
+                <div class='margin-5'>
+                  Don't have an account?
+                  <a class="signup-link link-color" data-gaclick="1" data-gaaction="show_signup"
+                    href="javascript:void(0);">Sign-up</a>
+                </div>
+              </div>
+              <div id='default-module'>
+                <div class='social-head'>Social sign-in</div>
+                <div class='facebook large-6 columns'>
+                  <a id="facebook_login" class="fb-auth" data-gaclick="1" data-gaaction="Connect_FB"
+                    href="/auth/facebook"><span class='social-icon'>
+                      <span class='icofont-facebook'></span>
+                    </span>
+                    <span>Connect</span>
+                    <span class='icofont-arrow_right_large'></span>
+                  </a>
+                </div>
+                <div class='google large-6 columns'>
+                  <a id="google_login" class="google-auth" data-gaclick="1" data-gaaction="Connect_G"
+                    href="/auth/google_oauth2"><span class='social-icon'>
+                      <span class='icofont-google'></span>
+                    </span>
+                    <span>Connect</span>
+                    <span class='icofont-arrow_right_large'></span>
+                  </a>
+                </div>
+                <div class='facebook-widget columns large-12'></div>
+                <p><span style="font-size: 8pt;">By continuing, you agree to our <a
+                      href="https://www.urbanladder.com/terms-of-use">Terms of Service</a> and <a
+                      href="https://www.urbanladder.com/privacy-policy">Privacy &amp; Legal Policy</a></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <script>
+      UL.DISABLEPOPUPONHOMEPAGE = 1;
+    </script>
+
+    <div id="fb-root"></div>
+    <div class="footer_wrapper row">
+      <div class="anchor-id-wrapper">
+        <div class="anchor-id" id="bestsellers"></div>
+      </div>
+      <div data-url="/bestsellers" data-page="2" id="best_seller_items"></div>
+      <div data-url="/recent" id="recently_viewed_items"></div>
+      <div class='interlink-wrap'>
+        <h2 class='interlink-header with-stroke text-center row'>Browse Popular Categories</h2>
+        <ul class='interlink-list row'>
+          <li class='large-4 small-6 columns related-seo-product'>
+            <a href='/living-room-furniture?src=g_footer_interlink'>
+              <div class='row link-wrap'>
+                <div class='large-2 columns product-image'>
+                  <img alt='Living' class='lazy'
+                    src='https://www.ulcdn.net/images/products/921638/thumb/Webster_Shoe_Cabinet_With_Lock_Walnut_Finish_32_Pair_Capacity_LP.jpg?1722319625'>
+                </div>
+                <div class='large-10 twelve mobile-one columns product-desc'>
+                  <span class='product-name'>Living</span>
+                  <span class='product-info'>
+                    4892+ Options
+                    starting from ₹466
+                  </span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class='large-4 small-6 columns related-seo-product'>
+            <a href='/dining-furniture?src=g_footer_interlink'>
+              <div class='row link-wrap'>
+                <div class='large-2 columns product-image'>
+                  <img alt='Dining' class='lazy'
+                    src='https://www.ulcdn.net/images/products/920253/thumb/Capra_Dining_Chairs_TK_LP.jpg?1722318862'>
+                </div>
+                <div class='large-10 twelve mobile-one columns product-desc'>
+                  <span class='product-name'>Dining</span>
+                  <span class='product-info'>
+                    1316+ Options
+                    starting from ₹384
+                  </span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class='large-4 small-6 columns related-seo-product'>
+            <a href='/bedroom-furniture?src=g_footer_interlink'>
+              <div class='row link-wrap'>
+                <div class='large-2 columns product-image'>
+                  <img alt='Bedroom &amp; Mattresses' class='lazy'
+                    src='https://www.ulcdn.net/images/products/921526/thumb/Twain_Study_Table_LP.jpg?1722319575'>
+                </div>
+                <div class='large-10 twelve mobile-one columns product-desc'>
+                  <span class='product-name'>Bedroom &amp; Mattresses</span>
+                  <span class='product-info'>
+                    7886+ Options
+                    starting from ₹594
+                  </span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class='large-4 small-6 columns related-seo-product'>
+            <a href='/storage?src=g_footer_interlink'>
+              <div class='row link-wrap'>
+                <div class='large-2 columns product-image'>
+                  <img alt='Storage Furniture' class='lazy'
+                    src='https://www.ulcdn.net/images/products/921638/thumb/Webster_Shoe_Cabinet_With_Lock_Walnut_Finish_32_Pair_Capacity_LP.jpg?1722319625'>
+                </div>
+                <div class='large-10 twelve mobile-one columns product-desc'>
+                  <span class='product-name'>Storage Furniture</span>
+                  <span class='product-info'>
+                    1467+ Options
+                    starting from ₹466
+                  </span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class='large-4 small-6 columns related-seo-product'>
+            <a href='/home-decor?src=g_footer_interlink'>
+              <div class='row link-wrap'>
+                <div class='large-2 columns product-image'>
+                  <img alt='Lighting &amp; Decor' class='lazy'
+                    src='https://www.ulcdn.net/images/products/921444/thumb/Sirius_Standing_Mirror_Teak_00_LP.jpg?1722319536'>
+                </div>
+                <div class='large-10 twelve mobile-one columns product-desc'>
+                  <span class='product-name'>Lighting &amp; Decor</span>
+                  <span class='product-info'>
+                    5162+ Options
+                    starting from ₹79
+                  </span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class='large-4 small-6 columns related-seo-product'>
+            <a href='/study?src=g_footer_interlink'>
+              <div class='row link-wrap'>
+                <div class='large-2 columns product-image'>
+                  <img alt='Study' class='lazy'
+                    src='https://www.ulcdn.net/images/products/921526/thumb/Twain_Study_Table_LP.jpg?1722319575'>
+                </div>
+                <div class='large-10 twelve mobile-one columns product-desc'>
+                  <span class='product-name'>Study</span>
+                  <span class='product-info'>
+                    638+ Options
+                    starting from ₹466
+                  </span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class='large-4 small-6 columns related-seo-product'>
+            <a href='/sale?src=g_footer_interlink'>
+              <div class='row link-wrap'>
+                <div class='large-2 columns product-image'>
+                  <img alt='Deal Zone' class='lazy'
+                    src='https://www.ulcdn.net/images/products/921638/thumb/Webster_Shoe_Cabinet_With_Lock_Walnut_Finish_32_Pair_Capacity_LP.jpg?1722319625'>
+                </div>
+                <div class='large-10 twelve mobile-one columns product-desc'>
+                  <span class='product-name'>Deal Zone</span>
+                  <span class='product-info'>
+                    1705+ Options
+                    starting from ₹598
+                  </span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class='large-4 small-6 columns related-seo-product'>
+            <a href='/collections-new?src=g_footer_interlink'>
+              <div class='row link-wrap'>
+                <div class='large-2 columns product-image'>
+                  <img alt='New Collection' class='lazy'
+                    src='https://www.ulcdn.net/images/products/921526/thumb/Twain_Study_Table_LP.jpg?1722319575'>
+                </div>
+                <div class='large-10 twelve mobile-one columns product-desc'>
+                  <span class='product-name'>New Collection</span>
+                  <span class='product-info'>
+                    2049+ Options
+                    starting from ₹53
+                  </span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class='large-4 small-6 columns related-seo-product'>
+            <a href='/furniture-stores?src=g_footer_interlink'>
+              <div class='row link-wrap'>
+                <div class='large-2 columns product-image'>
+                  <img alt='Stores' class='lazy'
+                    src='https://www.ulcdn.net/images/products/921638/thumb/Webster_Shoe_Cabinet_With_Lock_Walnut_Finish_32_Pair_Capacity_LP.jpg?1722319625'>
+                </div>
+                <div class='large-10 twelve mobile-one columns product-desc'>
+                  <span class='product-name'>Stores</span>
+                  <span class='product-info'>
+                    1141+ Options
+                    starting from ₹53
+                  </span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class='large-4 small-6 columns related-seo-product'>
+            <a href='/sofas-and-recliners?src=g_footer_interlink'>
+              <div class='row link-wrap'>
+                <div class='large-2 columns product-image'>
+                  <img alt='Sofas &amp; Recliners' class='lazy'
+                    src='https://www.ulcdn.net/images/products/988924/thumb/FVSTOT62GY50643_1.jpg?1733728296'>
+                </div>
+                <div class='large-10 twelve mobile-one columns product-desc'>
+                  <span class='product-name'>Sofas &amp; Recliners</span>
+                  <span class='product-info'>
+                    2741+ Options
+                    starting from ₹472
+                  </span>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class='large-4 small-6 columns related-seo-product'>
+            <a href='/interiors?src=g_footer_interlink'>
+              <div class='row link-wrap'>
+                <div class='large-2 columns product-image'>
+                  <img alt='Interiors' class='lazy' src=''>
+                </div>
+                <div class='large-10 twelve mobile-one columns product-desc'>
+                  <span class='product-name'>Interiors</span>
+                  <span class='product-info'>
+                  </span>
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class='global-spacer tiny'></div>
+
+    </div>
+    <div class="row">
+    </div>
+    <footer data-hook id="footer">
+      <div class='footer-email-subscribe'>
+        <div class='subscribe-wrap row'>
+          <div class='subscribe-wrap-signup-text'>
+            <p>&nbsp;</p>
+            <div><span style="font-size: 14pt;">Sign up and get a chance to win the giveaway of the week.</span></div>
+          </div>
+          <form class="form-validate" id="nl-subscribe-footer" action="/subscriptions" accept-charset="UTF-8"
+            data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+            <input type="hidden" name="sub_source" id="sub_source" value="nl_subscribe_footer" />
+            <div class='col-md-7 column large-7'>
+              <input type="email" name="email_id" id="email_id" value="" title="Please enter valid email address"
+                placeholder="Your Email ID" class="input-text text-left required email prefill" />
+            </div>
+            <div class='col-md-5 column large-5'>
+              <input type="submit" name="commit" value="SUBSCRIBE" class="button hp-button" data-gaclick="1"
+                data-gacategory="newsletter" data-gaaction="subscribed" />
+            </div>
+          </form>
+
+          <div class='ajaxloader'>
+            <img src="https://www.ulcdn.net/assets/spree/frontend/icons/loader-f40db8b3a97fef2e139c0fa9b0de17fc.gif"
+              alt="Loader" />
+          </div>
+        </div>
+        <div class='success-msg'>
+          <div>Thanks for subscribing!</div>
+        </div>
+      </div>
+
+      <div class='clearfix' id='footer-links'>
+        <div class='row'>
+          <div class='small-3 columns'>
+            <h3 class='text-left with-stroke-inverted'>The Company:</h3>
+            <ul class='small-6 columns inline-lists no-bullet list-text'>
+              <li class='footer-link-font'>
+                <a href="/about-urban-ladder?src=g_footer">About Us</a>
+              </li>
+              <li class='footer-link-font'>
+                <a href="/help?src=g_footer">Help</a>
+              </li>
+              <li class='footer-link-font'>
+                <a target="_blank" href="/blog?src=g_footer">Blog</a>
+              </li>
+              <li class='footer-link-font'>
+                <a target="_blank" href="/inside-ul?src=g_footer">Inside UL</a>
+              </li>
+            </ul>
+            <ul class='small-6 columns inline-lists no-bullet list-text'>
+              <li class='footer-link-font'>
+                <a target="_blank" href="https://urbanladder.skillate.com/?src=g_footer">Careers</a>
+              </li>
+              <li class='footer-link-font'>
+                <a href="/press-coverage?src=g_footer">Press</a>
+              </li>
+              <li class='footer-link-font'>
+                <a target="_blank" href="https://www.linkedin.com/company/2482371/life/?src=g_footer">Team</a>
+              </li>
+              <li class='footer-link-font'>
+                <a href="/privacy-policy?src=g_footer">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+          <div class='small-4 columns'>
+            <h3 class='text-left with-stroke-inverted'>More Information:</h3>
+            <ul class='small-6 columns inline-lists no-bullet list-text'>
+              <li class='footer-link-font'>
+                <a href="/security-payments?src=g_footer">Fees and Payment</a>
+              </li>
+              <li class='footer-link-font'>
+                <a href="/shipping-delivery?src=g_footer">Shipping &amp; Delivery</a>
+              </li>
+              <li class='footer-link-font'>
+                <a href="/terms-of-use?src=g_footer">Terms and Conditions</a>
+              </li>
+              <li class='footer-link-font'>
+                <a href="/terms-of-offer-for-sale?src=g_footer">Warranty, Return and Refund</a>
+              </li>
+            </ul>
+            <ul class='small-6 columns inline-lists small-6 no-bullet list-text'>
+              <li class='footer-link-font'>
+                <a href="/help/contact-us?src=g_footer">Contact Us</a>
+              </li>
+              <li class='footer-link-font'>
+                <a href="/furniture-stores?src=g_footer">Visit Us</a>
+              </li>
+              <li class='footer-link-font'>
+                <a href="/buy-in-bulk?src=g_footer">Buy In Bulk</a>
+              </li>
+            </ul>
+          </div>
+          <div class='small-2 columns'>
+            <h3 class='text-left with-stroke-inverted'>Explore More</h3>
+            <ul class='inline-lists no-bullet list-text'>
+              <li class='footer-link-font'>
+                <a href="/refer_and_earn?src=g_footer">Refer &amp; Earn</a>
+              </li>
+            </ul>
+          </div>
+          <div class='small-3 columns'>
+            <h3 class='text-left with-stroke-inverted'>Address</h3>
+            <ul class='inline-lists no-bullet list-text'>
+              <li class='footer-link-font-small'>
+                Reliance Retail Limited, <br />3rd Floor, Court House, Lokmanya Tilak Marg, Dhobi Talao, Mumbai- 400
+                002, Maharashtra, India
+              </li>
+              <li class='footer-link-font-small'>
+                <b>CIN: </b>
+                U01100MH1999PLC120563
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class='row'>
+          <div class='small-7 columns'>
+            <h3 class='text-left with-stroke-inverted'>Connect With Us:</h3>
+            <ul class='columns left inline-lists no-bullet small-block-grid-12' id='footer-social'>
+              <link>
+              <li class='fcallicon'>
+                <a class="icofont-call inverted" data-gaclick="1" data-gaaction="Click_Footer_Phone"
+                  href="tel:+918069807777"><span class='phoneNum'>+91 80698 07777</span>
+                </a>
+              </li>
+              <li>
+                <a target="" class="inverted" data-gaclick="1" data-gaaction="Click_Footer_EMail"
+                  href="mailto:hello@urbanladder.com">
+                  <div class='icofont-mail'></div>
+                </a>
+              </li>
+              <li>
+                <a target="_blank" class="inverted" data-gaclick="1" data-gaaction="Click_Footer_Facebook"
+                  href="https://facebook.com/urbanladder">
+                  <div class='icofont-facebook'></div>
+                </a>
+              </li>
+              <li>
+                <a target="_blank" class="inverted" data-gaclick="1" data-gaaction="Click_Footer_Twitter"
+                  href="https://twitter.com/UrbanLadder">
+                  <div class='icofont-social-twitter'></div>
+                </a>
+              </li>
+              <li>
+                <a target="_blank" class="inverted" data-gaclick="1" data-gaaction="Click_Footer_Pinterest"
+                  href="https://www.pinterest.com/urbanladder/">
+                  <div class='icofont-social-pinterest'></div>
+                </a>
+              </li>
+              <li>
+                <a target="_blank" class="inverted" data-gaclick="1" data-gaaction="Click_Footer_Youtube"
+                  href="https://youtube.com/user/urbanladder">
+                  <div class='icofont-social-youtube'></div>
+                </a>
+              </li>
+              <li>
+                <a target="_blank" class="inverted" data-gaclick="1" data-gaaction="Click_Footer_Instagram"
+                  href="https://instagram.com/urbanladder/">
+                  <div class='icofont-social-instagram'></div>
+                </a>
+              </li>
+              <li>
+                <a target="_blank" class="inverted" data-gaclick="1" data-gaaction="Click_Footer_Linkedin"
+                  href="https://in.linkedin.com/company/urban-ladder">
+                  <div class='icofont-social-linkedin'></div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class='small-5 columns'>
+            <h3 class='text-left with-stroke-inverted'>Download App:</h3>
+            <div class='download-btns'>
+              <a target="_blank" href="https://itunes.apple.com/us/app/urban-ladder/id959886087"><img
+                  alt="Download Urban Ladder App from Apple Store" data-gaclick="1" data-gacategory="app download"
+                  data-gaaction="clicked" data-galabel="ios" class="ios"
+                  src="https://www.ulcdn.net/media/badges/app_store/app_store_badge.svg" />
+              </a><a target="_blank" href="https://play.google.com/store/apps/details?id=com.urbanladder.catalog"><img
+                  alt="Download Urban Ladder App from Playstore" data-gaclick="1" data-gacategory="app download"
+                  data-gaaction="clicked" data-galabel="androidnl-subscribe-footer" class="android"
+                  src="https://www.ulcdn.net/media/badges/play_store/google-play-badge.png" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='footer-delivery' data-nosnippet='true'>
+        <div class='row'>
+          <div class='footer_msg_text'>
+            <div class='category-heading'>Popular Furniture Categories:</div>
+            <ul class='category-list'>
+              <li class='category'>
+                <a href='/bed' target='_blank'>
+                  Bed
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/all-beds' target='_blank'>
+                  Beds By Design
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/sofa-set' target='_blank'>
+                  Sofa Set
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/wooden-sofas' target='_blank'>
+                  Wooden Sofa
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/sofa' target='_blank'>
+                  Sofas By Design
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/sofa-cum-bed' target='_blank'>
+                  Sofa Cum Bed
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/double-beds' target='_blank'>
+                  Double Bed
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/single-beds' target='_blank'>
+                  Single Bed
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/queen-size-bed' target='_blank'>
+                  Queen Size Bed
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/king-size-bed' target='_blank'>
+                  King Size Bed
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/chair' target='_blank'>
+                  Chair
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/tables' target='_blank'>
+                  Wooden Table
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/study-table' target='_blank'>
+                  Study Table
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/study-chair' target='_blank'>
+                  Study Chair
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/wardrobes' target='_blank'>
+                  Wardrobe
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/chest-of-drawers' target='_blank'>
+                  Chest of Drawers
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/futon' target='_blank'>
+                  Futon
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/loveseats' target='_blank'>
+                  Loveseat
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/dining-table-set' target='_blank'>
+                  Dining Table Set
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/dining-chairs' target='_blank'>
+                  Dining Chair
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/bookshelf' target='_blank'>
+                  Bookshelves
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/shoe-rack' target='_blank'>
+                  Shoe Rack
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/tv-units' target='_blank'>
+                  TV Units
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/recliners' target='_blank'>
+                  Recliners
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/furniture' target='_blank'>
+                  Furniture
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/office-furniture' target='_blank'>
+                  Office Furniture
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/office-tables' target='_blank'>
+                  Office Table
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/office-chairs' target='_blank'>
+                  Office Chair
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/two-seater-sofas' target='_blank'>
+                  2 Seater Sofa
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/tv-cupboard' target='_blank'>
+                  TV Cupboard
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/tv-showcase' target='_blank'>
+                  TV Showcase
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/tv-stand' target='_blank'>
+                  TV Stand
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/center-tables' target='_blank'>
+                  Center Table
+                </a>
+              </li>
+              <span class='separator'>, </span>
+            </ul>
+          </div>
+        </div>
+        <div class='row'>
+          <div class='footer_msg_text'>
+            <div class='category-heading'>Shop Furniture By Room:</div>
+            <ul class='category-list'>
+              <li class='category'>
+                <a href='/living-room-furniture' target='_blank'>
+                  Living Room Furniture
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/bedroom-furniture' target='_blank'>
+                  Bedroom Furniture
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/dining-furniture' target='_blank'>
+                  Dining Room Furniture
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/study' target='_blank'>
+                  Study Room Furniture
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/bar-furniture' target='_blank'>
+                  Bar Furniture
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/balcony' target='_blank'>
+                  Balcony Furniture
+                </a>
+              </li>
+              <span class='separator'>, </span>
+            </ul>
+          </div>
+        </div>
+        <div class='row'>
+          <div class='footer_msg_text'>
+            <div class='category-heading'>Popular Decor Categories:</div>
+            <ul class='category-list'>
+              <li class='category'>
+                <a href='/home-decor' target='_blank'>
+                  Home Decor
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/carpet' target='_blank'>
+                  Carpets
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/mirrors' target='_blank'>
+                  Mirrors
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/study-lamps' target='_blank'>
+                  Study Lamps
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/table-lamps' target='_blank'>
+                  Table Lamps
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/bedsheets' target='_blank'>
+                  Bed Sheets
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/floor-lamps' target='_blank'>
+                  Floor Lamps
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/wall-lights' target='_blank'>
+                  Wall Lights
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/lighting' target='_blank'>
+                  Lighting
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/ceiling-lights' target='_blank'>
+                  Ceiling Lights
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/quilt' target='_blank'>
+                  Quilt
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/wall-decors' target='_blank'>
+                  Wall Decor
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/wall-mirrors' target='_blank'>
+                  Wall Mirror
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/table-furnishing' target='_blank'>
+                  Table Decor
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/table-covers' target='_blank'>
+                  Table Cover
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/table-napkin' target='_blank'>
+                  Table Napkin
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/table-mat' target='_blank'>
+                  Table Mat
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/cushion-cover' target='_blank'>
+                  Cushion Cover
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/table-runners' target='_blank'>
+                  Table Runners
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/home-furnishing' target='_blank'>
+                  Home Furnishing
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/wall-art' target='_blank'>
+                  Wall Art
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/showpieces' target='_blank'>
+                  Showpiece
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/artificial-plants' target='_blank'>
+                  Artificial Plants
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/photo-frames' target='_blank'>
+                  Photo Frame
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/candle-stand' target='_blank'>
+                  Candle Stand
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/clocks' target='_blank'>
+                  Clocks
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/wall-clocks' target='_blank'>
+                  Wall Clocks
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/festive-lights' target='_blank'>
+                  Festive Lights
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/candles' target='_blank'>
+                  Candles
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/bath-mats' target='_blank'>
+                  Bath Mat
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/vases' target='_blank'>
+                  Vases
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/flower-vase' target='_blank'>
+                  Flower Vase
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/bathroom-accessories' target='_blank'>
+                  Bathroom Accessories
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/bathroom-mirrors' target='_blank'>
+                  Bathroom Mirrors
+                </a>
+              </li>
+              <span class='separator'>, </span>
+            </ul>
+          </div>
+        </div>
+        <div class='row'>
+          <div class='footer_msg_text'>
+            <div class='category-heading'>Popular Mattress Categories:</div>
+            <ul class='category-list'>
+              <li class='category'>
+                <a href='/mattresses' target='_blank'>
+                  Mattresses
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href=' /single-bed-mattress' target='_blank'>
+                  Single Bed Mattresses
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/double-bed-mattress' target='_blank'>
+                  Double Bed Mattresses
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/king-size-mattress' target='_blank'>
+                  King Size Mattresses
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/queen-size-mattress' target='_blank'>
+                  Queen Size Mattresses
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/foam-mattress' target='_blank'>
+                  Foam Mattress
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/coir-mattress' target='_blank'>
+                  Coir Mattress
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/latex-mattress' target='_blank'>
+                  Latex Mattress
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/spring-mattress' target='_blank'>
+                  Spring Mattress
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/orthopaedic-mattress' target='_blank'>
+                  Orthopaedic Mattress
+                </a>
+              </li>
+              <span class='separator'>, </span>
+            </ul>
+          </div>
+        </div>
+        <div class='row'>
+          <div class='footer_msg_text'>
+            <div class='category-heading'>Popular Tableware Categories: </div>
+            <ul class='category-list'>
+              <li class='category'>
+                <a href='/shot-glass' target='_blank'>
+                  Shot Glass
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/dinner-plates' target='_blank'>
+                  Dinner Plates
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/baking-tray' target='_blank'>
+                  Baking Tray
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/fork' target='_blank'>
+                  Forks
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/dinner-set' target='_blank'>
+                  Dinner Set
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/tumbler' target='_blank'>
+                  Tumbler
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/drinking-glass' target='_blank'>
+                  Drinking Glass
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/cutlery-holder' target='_blank'>
+                  Cutlery Holder
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/tissue-holder' target='_blank'>
+                  Tissue Holder
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/bottle-opener' target='_blank'>
+                  Bottle Opener
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/spoons' target='_blank'>
+                  Spoons
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/whiskey-glass' target='_blank'>
+                  Whiskey Glass
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/kitchen-organizers' target='_blank'>
+                  Kitchen Organizers
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/hot-pot' target='_blank'>
+                  Hot Pot
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/chefs-cap' target='_blank'>
+                  Chef's Cap
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/glass-jars' target='_blank'>
+                  Glass Jars
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/kitchen-gloves' target='_blank'>
+                  Kitchen Gloves
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/kitchen-storage-containers' target='_blank'>
+                  Kitchen Storage Containers
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/bar-tools' target='_blank'>
+                  Bar Tools
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/masala-box' target='_blank'>
+                  Masala Box
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/glass-bottles' target='_blank'>
+                  Glass Bottles
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/coasters' target='_blank'>
+                  Coasters
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/cutlery-set' target='_blank'>
+                  Cutlery Set
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/knives-set' target='_blank'>
+                  Knives Set
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/oven-gloves' target='_blank'>
+                  Oven Gloves
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/aprons' target='_blank'>
+                  Aprons
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/cake-stand' target='_blank'>
+                  Cake Stand
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/fruit-basket' target='_blank'>
+                  Fruit Basket
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/spice-box' target='_blank'>
+                  Spice Box
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/beer-glass' target='_blank'>
+                  Beer Glass
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/bowls' target='_blank'>
+                  Bowls
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/oil-dispenser' target='_blank'>
+                  Oil Dispenser
+                </a>
+              </li>
+              <span class='separator'>, </span>
+              <li class='category'>
+                <a href='/housewarming-gifts' target='_blank'>
+                  Housewarming Gifts
+                </a>
+              </li>
+              <span class='separator'>, </span>
+            </ul>
+          </div>
+        </div>
+        <div class='row'>
+          <div class='footer_msg_text'>
+            <div class='category-heading'>Delivering in:</div>
+            <div class='category-list'>
+              <ul class='city-wrap'>
+                <li class='category'>
+                  Aanamalai
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Ahmedabad
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Ajmer
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Alappuzha
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Aler
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Alibaug
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Aligarh
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Alleppey
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Alwar
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Alwaye
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Amaravathi
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Ambala
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Ambarnath
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Amdapur
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Amtala
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Anakapalle
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Anikorai
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Arakkonam
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Arnala
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Arutla
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Asansol
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Athikunna
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Athipalli
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Atkur
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Aurangabad
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Avanshi
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Badlapur
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Bahadurgarh
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Balasore
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Bangalore
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Bangarpet
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Bankura
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Barabanki
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Barasat
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Basar
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Basirhat
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Belagavi
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Bellary
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Bellevue
+                </li>
+                <span class='separator'>, </span>
+                <li class='category'>
+                  Bhambla
+                </li>
+                <span class='separator'>, </span>
+              </ul>
+              <a href='/locations?src=footer' target='_blank'>
+                ... More
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class='row'>
+          <div class='footer_msg_text'>
+            <div class='category-heading'>We Accept:</div>
+            <ul class='category-list'>
+              <li class='category'>
+                <img class="we-accept"
+                  src="https://www.ulcdn.net/assets/spree/frontend/weAccept/visa-color-5f4f48813f58a82a66072e04c747c44b.png"
+                  alt="Visa color" />
+                <img class="we-accept"
+                  src="https://www.ulcdn.net/assets/spree/frontend/weAccept/mastercard-color-56ec2a5b27b9711c0181ee0d6fc92e1a.png"
+                  alt="Mastercard color" />
+                <img class="we-accept"
+                  src="https://www.ulcdn.net/assets/spree/frontend/weAccept/maestro-color-aa7cd4624473b4ec8a4c383b5ba664b2.png"
+                  alt="Maestro color" />
+                <img class="we-accept"
+                  src="https://www.ulcdn.net/assets/spree/frontend/weAccept/amex-color-dc865c5f0bb4a5996a075b5ffb2dd90c.png"
+                  alt="Amex color" />
+                <img class="we-accept"
+                  src="https://www.ulcdn.net/assets/spree/frontend/weAccept/rupay-color-cdb33c865776f5c161fddb1790f1c61e.png"
+                  alt="Rupay color" />
+                <img class="we-accept"
+                  src="https://www.ulcdn.net/assets/spree/frontend/weAccept/bhim-upi-color-91b36440594effe77b31512bc758f779.png"
+                  alt="Bhim upi color" />
+              </li>
+            </ul>
+          </div>
+          <h4 class='text-center subheader copyright'>
+            <span>
+              &copy;
+              2012-2025 Urban Ladder
+            </span>
+          </h4>
+        </div>
+      </div>
+
+    </footer>
+
+    <script>
+      var email = "";
+      var dataLayer = dataLayer || [];
+      dataLayer.push({ 'device': 'd', 'GAEmail': email });
+    </script>
+
+
+    <div class='reveal-modal' data-reveal id='link-popup-container'>
+      <a class='close-reveal-modal' href='javascript:void(0);'>
+        <span class='icofont-cross_thin'></span>
+      </a>
+      <div class='title'></div>
+      <div class='body'></div>
+    </div>
+    </div>
+    <script src="https://www.ulcdn.net/assets/spree/frontend/all-d8a6218d64a0a13f26b238b52cd27d2d.js"></script>
+    <script>
+      window._atm_client_id = "6212";
+      window._atm_params = new Object;
+      _atm_params.t = "r";
+      _atm_params.f = "";
+      _atm_params.id = "";
+      _atm_params.c = "";
+      _atm_params.cn = "";
+      _atm_params.sc = "";
+      _atm_params.scn = "";
+      _atm_params.avl = "";
+
+      $(window).load(function () {
+        var ast = document.createElement('script'); ast.type = "text/javascript";
+        ast.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + "//cdn.atomex.net/static/js/pxs/" + window._atm_client_id + "/ast.js";
+        document.getElementsByTagName('body')[0].appendChild(ast);
+      });
+    </script>
+
+    
+
+
+    <script>
+      Spree.api_key = "";
+      show_login = true;
+    </script>
+    <script type='text/javascript'>
+      (function () {
+        var
+        geminiJs = document.createElement('script'); geminiJs.type = 'text/javascript'; geminiJs.async = !0; geminiJs.src = 'https://cdn.epsilondelta.co/static/gemGen.js';
+        var s1 = document.getElementsByTagName('script')[0]; s1.parentNode.insertBefore(geminiJs, s1)
+      })();
+    </script>
+  
+  
+</body>
+</html>
